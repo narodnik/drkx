@@ -1,0 +1,30 @@
+See help:
+
+  $ darkwallet help
+
+See command specific help:
+
+  $ darkwallet help deposit
+
+1. Initialize a new coin. We will have 7 signers, with a threshold of 5
+
+  $ darkwallet init xcoin 5 7
+
+2. Deposit 100 coins into our currency
+
+  $ darkwallet deposit xcoin 100
+
+3. List tokens belonging to our currency.
+
+  $ darkwallet list_tokens xcoin
+
+4. Split our token into two new tokens.
+
+  $ darkwallet split xcoin TOKEN_ID 20 80
+
+5. (take a look at list_tokens to see you have 2 new tokens now)
+
+6. Withdraw a token from your wallet.
+
+  $ darkwallet withdraw xcoin TOKEN_ID
+

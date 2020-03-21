@@ -1,0 +1,13 @@
+Uses the pairing library written by ZCash project:
+https://electriccoin.co/blog/pairing-cryptography-in-rust/
+
+Originally pairing library, now renamed to bls12_381
+
+To run the example tool:
+
+  $ git clone https://github.com/narodnik/darkwallet
+  $ cd darkwallet
+  $ cargo build --examples
+  $ cd target/debug/examples/
+  $ ./darkwallet help
+
